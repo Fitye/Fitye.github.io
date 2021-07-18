@@ -11,10 +11,10 @@
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 <meta name="author" content="初步浅">
-<meta name="description" content="初步浅正在装修的博客">
-<meta name="keywords" content="初步浅正在装修的博客">
+<meta name="description" content="风来自很远的地方去去也无妨">
+<meta name="keywords" content="初步浅,Fitye,博客,前端设计,UI">
 <script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-<link rel="stylesheet" href="http://localhost:4001/styles/main.css" />
+<link rel="stylesheet" href="http://localhost:4000/styles/main.css" />
 <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
 
@@ -31,9 +31,6 @@
                 <!--点击特效-->
                 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
                 
-                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
-                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-                    
                         <!--CDN样式-->
                         <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
                         <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
@@ -60,7 +57,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="navbar-header header-logo">
-                <a href="http://localhost:4001">
+                <a href="http://localhost:4000">
                     初步浅的测试文档（正在装修中）
                 </a>
             </div>
@@ -79,14 +76,10 @@
                         标签
                     </a>
                     
-                    <a class="menu-item" href="/post/about">
-                        关于
-                    </a>
-                    
                         <input id="switch_default" type="checkbox" class="switch_default">
                         <label for="switch_default" class="toggleBtn"></label>
             </div>
-            <form id="gridea-search-form" data-update="1626445920956" action="/search/index.html">
+            <form id="gridea-search-form" data-update="1626621897482" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
             </form>
         </div>
@@ -97,7 +90,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <div>
-                        <a href="http://localhost:4001">
+                        <a href="http://localhost:4000">
                             初步浅的测试文档（正在装修中）
                         </a>
                         <!--en-->
@@ -105,7 +98,7 @@
                         <!--zh-->
                         <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
                     </div>
-                    <form id="gridea-search-form" data-update="1626445920956" action="/search/index.html">
+                    <form id="gridea-search-form" data-update="1626621897482" action="/search/index.html">
                         <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
                     </form>
                     <!--en-->
@@ -126,10 +119,6 @@
                         
                         <a class="menu-item" href="/tags">
                             标签
-                        </a>
-                        
-                        <a class="menu-item" href="/post/about">
-                            关于
                         </a>
                         
                 </div>
@@ -176,8 +165,6 @@
             </div>
     </div>
     
-    <div id="player"></div>
-    
         <footer id="footer" class="footer">
             <div class="copyright">
                 
@@ -219,28 +206,6 @@
             
                 <script>
                     
-
-                    function LoadPlayer() {
-                        var music_array = [];
-                        
-                        music_array.push({
-                            name: '',
-                            url: '',
-                            artist: '',
-                            cover: '',
-                        });
-                        
-                        console.log(" MusicList: " + music_array);
-                        
-                        const ap = new APlayer({
-                            container: document.getElementById('player'),
-                            fixed: true,
-                            audio: music_array
-                        });
-                        
-                    }
-                    LoadPlayer();
-                    
                     
                     loadlive2d();
                     
@@ -254,7 +219,7 @@
                     CheckVersion();
                     
                     var newDate = new Date();
-                    newDate.setTime(1626445920956);
+                    newDate.setTime(1626621897482);
                     console.log(" Blog Update Time: " + newDate.toLocaleDateString());
                     console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
                 </script>
@@ -284,8 +249,6 @@
                     </script>
                     <script>
                         var wearther_margin = "10px 10px";
-                        
-                        wearther_margin = "70px 5px";
                         
                         tpwidget("init", {
                             "flavor": "bubble",
