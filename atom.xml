@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://https://fitye.github.io</id>
+    <id>http://localhost:4000</id>
     <title>初步浅的小破网</title>
-    <updated>2021-07-18T16:27:22.369Z</updated>
+    <updated>2021-07-23T07:03:03.614Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://https://fitye.github.io"/>
-    <link rel="self" href="https://https://fitye.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>初步浅的新奇博客</subtitle>
-    <logo>https://https://fitye.github.io/images/avatar.png</logo>
-    <icon>https://https://fitye.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2021, 初步浅的小破网</rights>
+    <entry>
+        <title type="html"><![CDATA[算是自己的一个工作汇报]]></title>
+        <id>http://localhost:4000/suan-shi-zi-ji-de-yi-ge-gong-zuo-hui-bao/</id>
+        <link href="http://localhost:4000/suan-shi-zi-ji-de-yi-ge-gong-zuo-hui-bao/">
+        </link>
+        <updated>2021-07-18T16:30:11.000Z</updated>
+        <content type="html"><![CDATA[<p>今天是这个博客完成初步搭建的第一天，目前我的前期搭建工作已经差不都快完成，剩下的任务是完善博客，添加天气插件或者评论功能。</p>
+]]></content>
+    </entry>
 </feed>
